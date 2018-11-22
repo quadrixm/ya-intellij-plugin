@@ -24,4 +24,4 @@ intellij {
 }
 
 group 'org.yalang'
-version '0.0.1' // Update me!
+version '0.0.2' // Update me!

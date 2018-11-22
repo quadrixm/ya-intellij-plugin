@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>org.yalang.plugin</id>
     <name>Ya (ي) Language</name>
-    <vendor email="team@yalang.org" url="https://www.yalang.org">Ya Language</vendor>
+    <vendor url="http://www.yalang.org">Ya Language</vendor>
 
     <description><![CDATA[
     Ya (ي) programming language support.<br>
