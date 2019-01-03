@@ -16,7 +16,7 @@
 
   tokens=[
     TRUE_KEYWORD='صحيح'
-    FALSE_KEYWORD='زائف'
+    FALSE_KEYWORD='كاذب'
     NONE_KEYWORD='لااحد'
     ASYNC_KEYWORD='غيرمتزامن'
     AS_KEYWORD='مثل'

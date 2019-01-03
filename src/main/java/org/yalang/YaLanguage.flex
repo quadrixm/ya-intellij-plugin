@@ -216,7 +216,7 @@ return YaTokenTypes.DOCSTRING; }
 "محصول"               { return YaTokenTypes.YIELD_KEYWORD; }
 
 "صحيح"                { return YaTokenTypes.TRUE_KEYWORD; }
-"زائف"                { return YaTokenTypes.FALSE_KEYWORD; }
+"كاذب"                { return YaTokenTypes.FALSE_KEYWORD; }
 "لااحد"                { return YaTokenTypes.NONE_KEYWORD; }
 "غيرمتزامن"           { return YaTokenTypes.ASYNC_KEYWORD; }
 "مثل"                 { return YaTokenTypes.AS_KEYWORD; }
