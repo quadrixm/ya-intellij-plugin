@@ -188,16 +188,16 @@ return YaTokenTypes.DOCSTRING; }
 {TRIPLE_QUOTED_STRING} { return YaTokenTypes.TRIPLE_QUOTED_STRING; }
 
 "و"                   { return YaTokenTypes.AND_KEYWORD; }
-"أكد"                 { return YaTokenTypes.ASSERT_KEYWORD; }
+"اكد"                 { return YaTokenTypes.ASSERT_KEYWORD; }
 "اكسر"                { return YaTokenTypes.BREAK_KEYWORD; }
 "صنف"                 { yybegin(IN_DOCSTRING_OWNER); return YaTokenTypes.CLASS_KEYWORD; }
 "استمر"               { return YaTokenTypes.CONTINUE_KEYWORD; }
 "وظيفة"               { yybegin(IN_DOCSTRING_OWNER); return YaTokenTypes.DEF_KEYWORD; }
 "حذف"                 { return YaTokenTypes.DEL_KEYWORD; }
 "ولو"                 { return YaTokenTypes.ELIF_KEYWORD; }
-"آخر"                 { return YaTokenTypes.ELSE_KEYWORD; }
-"إلا"                  { return YaTokenTypes.EXCEPT_KEYWORD; }
-"أخيرا"               { return YaTokenTypes.FINALLY_KEYWORD; }
+"اخر"                 { return YaTokenTypes.ELSE_KEYWORD; }
+"الا"                  { return YaTokenTypes.EXCEPT_KEYWORD; }
+"اخيرا"               { return YaTokenTypes.FINALLY_KEYWORD; }
 "لكل"                  { return YaTokenTypes.FOR_KEYWORD; }
 "من"                  { return YaTokenTypes.FROM_KEYWORD; }
 "عالمي"               { return YaTokenTypes.GLOBAL_KEYWORD; }
@@ -207,10 +207,10 @@ return YaTokenTypes.DOCSTRING; }
 "يساوي"               { return YaTokenTypes.IS_KEYWORD; }
 "امدا"                { return YaTokenTypes.LAMBDA_KEYWORD; }
 "لا"                   { return YaTokenTypes.NOT_KEYWORD; }
-"أو"                  { return YaTokenTypes.OR_KEYWORD; }
+"او"                  { return YaTokenTypes.OR_KEYWORD; }
 "مرر"                 { return YaTokenTypes.PASS_KEYWORD; }
 "رفع"                 { return YaTokenTypes.RAISE_KEYWORD; }
-"إرجع"                { return YaTokenTypes.RETURN_KEYWORD; }
+"ارجع"                { return YaTokenTypes.RETURN_KEYWORD; }
 "حاول"                { return YaTokenTypes.TRY_KEYWORD; }
 "بينما"               { return YaTokenTypes.WHILE_KEYWORD; }
 "محصول"               { return YaTokenTypes.YIELD_KEYWORD; }
