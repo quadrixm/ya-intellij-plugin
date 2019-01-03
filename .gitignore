@@ -108,3 +108,4 @@ Example.flex
 Python.bnf
 *.backup
 gradle.properties
+local.properties
