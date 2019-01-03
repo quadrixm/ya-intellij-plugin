@@ -35,7 +35,7 @@
     ELSE_KEYWORD='آخر'
     EXCEPT_KEYWORD='إلا'
     FINALLY_KEYWORD='أخيرا'
-    FOR_KEYWORD='لأن'
+    FOR_KEYWORD='لكل'
     FROM_KEYWORD='من'
     GLOBAL_KEYWORD='عالمي'
     IF_KEYWORD='لو'

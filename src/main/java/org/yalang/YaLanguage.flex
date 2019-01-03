@@ -198,7 +198,7 @@ return YaTokenTypes.DOCSTRING; }
 "آخر"                 { return YaTokenTypes.ELSE_KEYWORD; }
 "إلا"                  { return YaTokenTypes.EXCEPT_KEYWORD; }
 "أخيرا"               { return YaTokenTypes.FINALLY_KEYWORD; }
-"لأن"                  { return YaTokenTypes.FOR_KEYWORD; }
+"لكل"                  { return YaTokenTypes.FOR_KEYWORD; }
 "من"                  { return YaTokenTypes.FROM_KEYWORD; }
 "عالمي"               { return YaTokenTypes.GLOBAL_KEYWORD; }
 "لو"                  { return YaTokenTypes.IF_KEYWORD; }
